@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                Ankit Panchal
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#about">About </a>
+                <a href="#skill">Skill</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home-section">
+        <div class="left">
+            <h1>Hello,My name is <span style="color:white;">Ankit</span></h1>
+            <span id="element"></span><br>
+            <a href="#contact">Contact me</a>
+        </div>
+        <div class="right">
+            <img src="img/bg.png" alt="">
+        </div>
+    </section>
+    <section id="about">
+        <h1>About me</h1>
+        <div class="about-section">
+            <div class="about-left">
+                <h2>Ankit Panchal</h2>
+                <h3>Web Developer</h3>
+                <p>To create a basic calculator using CSS, HTML, and JavaScript, you'll need to implement an
+                    interactive interface with buttons for addition, subtraction, multiplication, and division
+                    operations. The calculator should have a display screen to show user input and results. Utilize
+                    CSS grid system for button alignments. Use event listeners, if-else statements, operators, and
+                    loops to handle user input and perform calculations. This project requires some skill but can be
+                    done with basic knowledge of these technologies.</p>
+            </div>
+            <div class="about-right">
+                <img src="img/Ankit.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="skill" class="skill-section">
+        <h1>Skill</h1>
+        <div class="skill-box">
+            <h3>HTML</h3>
+            <div class="container">
+                <div class="skill html">90%</div>
+            </div>
+        </div>
+        <div class="skill-box">
+            <h3>CSS</h3>
+            <div class="container">
+                <div class="skill css">50%</div>
+            </div>
+        </div>
+        <div class="skill-box">
+            <h3>JavaScript</h3>
+            <div class="container">
+                <div class="skill js">70%</div>
+            </div>
+        </div>
+        <div class="skill-box">
+            <h3>React js</h3>
+            <div class="container">
+                <div class="skill react">80%</div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h1>Contact me</h1>
+        <div class="mycontact">
+            <div class="myleft">
+                <img src="img/mobile.png" alt="">
+                <h3>Mobile no</h3>
+                <p>+91 8200348934</p>
+            </div>
+            <div class="myright">
+                <img src="img/email.png" alt="">
+                <h3>Email</h3>
+                <p>panchalankit298@gmail.com</p>
+            </div>
+        </div>
+        <div class="contact-container">
+            <form action="">
+
+                <label >Name :</label>
+                <input type="text" placeholder="Your name">
+            
+                <label >Email :</label>
+                <input type="email" placeholder="Your email">
+            
+                <label >Subject</label>
+                <textarea style="height:200px"></textarea>
+                <button class="submit">Submit</button>
+        
+            
+              </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer-first">
+                <ul>
+                    <li class="link"><a href="#">Home</a></li>
+                    <li class="link"><a href="#about">About </a></li>
+                </ul>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li class="link"><a href="#skill">Skill</a></li>
+                    <li class="link"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p>&copy;2024 Ankit Panchal. All Right reserved</p>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Front-End Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

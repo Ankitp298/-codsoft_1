@@ -1,0 +1,301 @@
+body {
+    background-color: hsl(0, 0%, 5%);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: hsl(193, 65%, 40%);
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: hsl(193, 65%, 40%);
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: rgb(19, 19, 22);
+}
+
+.logo:hover {
+    color: white;
+}
+
+.menu a {
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 0 20px;
+    color: rgb(19, 19, 22);
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.home-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.left {
+
+    margin-top: 200px;
+    text-align: center;
+    width: 50%;
+}
+
+.left h1 {
+    font-size: 2rem;
+    margin-bottom: 0%;
+}
+
+.left span {
+    color: white;
+    font-size: 1.6em;
+    text-align: justify;
+    margin-top: 0%;
+}
+
+.left a {
+    background-color: hsl(193, 65%, 40%);
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5%;
+    position: relative;
+    top: 20px;
+}
+
+.right {
+    width: 40%;
+}
+
+.right img {
+    margin-top: 70px;
+    width: 80%;
+    height: 80%;
+}
+
+#about h1 {
+    font-size: 3em;
+    margin: 0px 16px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.about-left {
+    width: 50%;
+    text-align: justify;
+}
+
+.about-left h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 0%;
+}
+
+.about-left h3 {
+    color: white;
+    font-size: 2em;
+    text-align: left;
+    margin-top: 0%;
+}
+
+.about-right {
+    width: 40%;
+}
+
+.about-right img {
+    margin-top: 70px;
+    width: 70%;
+    height: 80%;
+}
+
+.meter {
+    width: 500px;
+}
+
+.skill-section h1 {
+    font-size: 3em;
+    margin: 0px 16px;
+}
+
+.skill-box h3 {
+    position: relative;
+    top: 10px;
+    left: 40px;
+
+}
+
+.container {
+    width: 90vw;
+    height: 45px;
+    background-color: aliceblue;
+    margin: 0px 40px;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: hsl(193, 65%, 40%);
+}
+
+.css {
+    width: 50%;
+    background-color: hsl(193, 65%, 40%);
+}
+
+.js {
+    width: 70%;
+    background-color: hsl(193, 65%, 40%);
+}
+
+.react {
+    width: 80%;
+    background-color: hsl(193, 65%, 40%);
+}
+
+
+.contact-section h1 {
+    font-size: 3em;
+    margin: 20px 16px;
+}
+
+.mycontact {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.mycontact h3 {
+    font-size: 1rem bold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.mycontact p {
+    color: hsl(193, 65%, 80%);
+    font-size: 0.8rem;
+    padding-top: 0px;
+    margin-top: 0px;
+    transition: 0.4s ease;
+}
+
+.mycontact p:hover {
+    color: white;
+}
+
+
+.myleft img {
+    background-color: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.myright img {
+    background-color: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.myleft p {
+
+    margin-top: 0%;
+}
+
+.contact-section {
+    height: 130vh;
+}
+
+.contact-container {
+    position: relative;
+    top: 50px;
+    left: 400px;
+    width: 650px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+.submit {
+    background-color: hsl(193, 65%, 40%);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.submit:hover {
+    background-color: hsl(193, 36%, 56%);
+}
+
+.footer {
+    background-color: black;
+    margin-bottom: -1%;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* .link {
+    list-style-type: none;
+} */
+
+.link a {
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 0 20px;
+    color: rgb(36 140 168);
+
+}
+
+.link a:hover {
+    color: white;
+}
+
+
+.footer p {
+    text-align: end;
+    padding: 0px 5px;
+}
